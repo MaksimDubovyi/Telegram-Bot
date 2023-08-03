@@ -1,0 +1,24 @@
+відео по якому робив 
+https://www.google.com/search?sxsrf=AB5stBiBExgQNgoLd2vZQkLhDIX9qoemug:1690972295592&q=telegram+bot+gpt&tbm=vid&source=lnms&sa=X&ved=2ahUKEwj6x4PY4r2AAxVvLBAIHZdeAX8Q0pQJegQIDBAB&biw=1920&bih=963&dpr=1#fpstate=ive&vld=cid:3b1b3ea9,vid:-6ufFPvp6CY
+
+
+
+1. Створив пусту папку з назвою проекту и зайшов в неї з VS Code
+2.Ініціалізація проекту npm init -y
+3.Пакети необхідні для розробки npm i -D nodemon cross-env
+4.Для бота потрібно установити пакет  npm i telegraf config
+
+переходимо в телеграм і знаходимо в пошуку BotFather натискаємо /newbot - create a new bot потім вписуемо назву типу Fashion Cat і потім вписуемо адресу типу FashionCatBot і 
+якщо все добре зявится токен 
+Use this token to access the HTTP API:
+6626002153:AAFUokDtqZXOxUM78yFsq44EJHetjJ
+
+потім створюємо папку config а в ній файл default.json а в нього вписуємо 
+{
+    "TELEGRAM_TOKEN":"6626002153:AAFUokDtqZXOxUM78yFsq44EJHetjJaX2-k"
+}
+
+
+npm i axios fluent-ffmpeg @ffmpeg-installer/ffmpeg
+
+npm i openai
